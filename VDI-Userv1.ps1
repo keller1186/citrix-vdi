@@ -1,5 +1,6 @@
-﻿#Retrieve Users assigned to mentioned VDIs
+#Author - Kamlesh Vishwakerma (Citrix and Azure Architect)
 
+#Retrieve Users assigned to mentioned VDIs
 #Input - A text file with the list of VDIs.
 #Output - A csv files containing Users, assigned to the mentioned VDIs.
 
