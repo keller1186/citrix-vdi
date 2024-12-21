@@ -1,5 +1,6 @@
-﻿#Retrieve all single session machines assigned to a user
+#Author - Kamlesh Vishwakerma (Citrix and Azure Architect)
 
+#Retrieve all single session machines assigned to users provided in a list.
 #Input - A text file with the list of users.
 #Output - A csv files with all Single session assigned to the users from the input file.
 
