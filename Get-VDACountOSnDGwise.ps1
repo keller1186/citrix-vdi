@@ -1,4 +1,5 @@
-﻿#Get the Single Session VDA count, per Delivery Group by OS Type.
+#Author - Kamlesh Vishwakerma (Citrix and Azure Architect)
+#Get the Single Session VDA count, per Delivery Group by OS Type.
 
 Clear-Host
 [DateTime]::Now
@@ -62,3 +63,4 @@ $StandardFreePool = Get-BrokerMachine -SessionSupport SingleSession -MaxRecordCo
 $PerformanceFreePool = Get-BrokerMachine -SessionSupport SingleSession -MaxRecordCount 5000 -DesktopGroupName "*Performance Windows 11 VDI*" -IsAssigned $false |Measure-Object 
 Write-Host "Standard Free Pool Count:" $StandardFreePool.Count -ForegroundColor Cyan
 Write-Host "Performance Free Pool Count:" $PerformanceFreePool.Count -ForegroundColor Cyan
+
